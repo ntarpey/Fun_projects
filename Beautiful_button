@@ -1,0 +1,40 @@
+<a href="#" class="button">Click me!</a>
+
+<style>
+    
+* {box-sizing: border-box;}
+
+body {
+  padding: 20px;
+}
+
+.button {
+  position: relative;
+  
+  display: block;
+  width: 75%;
+  margin: 100px auto;
+  padding: 20px 20px;
+  
+  border-radius: 90px;
+  box-shadow: 0 5px 0 0 #e9edee, 0 5px 0 2px #ccd2d2, 0 12px 20px 6px #d5dbdb;
+  
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  
+
+  
+  &:active {
+    top: 5px;
+    
+    box-shadow: 0 1px 0 2px #ccd2d2, 0 7px 20px 6px #d5dbdb;
+  }
+}
+</style>
+
+<script>
+    document.addEventListener("touchstart", function(){}, true)
+</script>
